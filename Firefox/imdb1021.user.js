@@ -30,7 +30,7 @@ function addIshountLink(cssString) {
            null,
            XPathResult.STRING_TYPE,
            null
-       ).stringValue.replace(/^\s*/, "").replace(/\s*$/, "").replace(/^\s*/, "").replace(/\s*$/, "").replace(new RegExp('[ЛНМ]','gi'), 'i').replace(new RegExp('[г]','gi'), 'c').replace(new RegExp('[зыш]','gi'), 'u').replace(new RegExp('[срту]','gi'), 'o').replace(new RegExp('[ихй]','gi'), 'e').replace(new RegExp('[аюбц]','gi'), 'a');
+       ).stringValue.replace(/^\s*/, "").replace(/\s*$/, "").replace(/^\s*/, "").replace(/\s*$/, "").replace(new RegExp('[О©╫О©╫О©╫]','gi'), 'i').replace(new RegExp('[О©╫]','gi'), 'c').replace(new RegExp('[О©╫О©╫О©╫]','gi'), 'u').replace(new RegExp('[О©╫О©╫О©╫О©╫]','gi'), 'o').replace(new RegExp('[О©╫О©╫О©╫]','gi'), 'e').replace(new RegExp('[О©╫О©╫О©╫О©╫]','gi'), 'a');
    } catch (err) {
        return;
    }
@@ -42,7 +42,7 @@ function addIshountLink(cssString) {
            null,
            XPathResult.STRING_TYPE,
            null
-       ).stringValue.replace(/^\s*/, "").replace(/\s*$/, "").replace(/^\s*/, "").replace(/\s*$/, "").replace(new RegExp('[ЛНМ]','gi'), 'i').replace(new RegExp('[г]','gi'), 'c').replace(new RegExp('[зыш]','gi'), 'u').replace(new RegExp('[срту]','gi'), 'o').replace(new RegExp('[ихй]','gi'), 'e').replace(new RegExp('[аюбц]','gi'), 'a');
+       ).stringValue.replace(/^\s*/, "").replace(/\s*$/, "").replace(/^\s*/, "").replace(/\s*$/, "").replace(new RegExp('[О©╫О©╫О©╫]','gi'), 'i').replace(new RegExp('[О©╫]','gi'), 'c').replace(new RegExp('[О©╫О©╫О©╫]','gi'), 'u').replace(new RegExp('[О©╫О©╫О©╫О©╫]','gi'), 'o').replace(new RegExp('[О©╫О©╫О©╫]','gi'), 'e').replace(new RegExp('[О©╫О©╫О©╫О©╫]','gi'), 'a');
    } catch (err) {
        return;
    }
@@ -54,7 +54,7 @@ function addIshountLink(cssString) {
            null,
            XPathResult.STRING_TYPE,
            null
-       ).stringValue.replace(/^\s*/, "").replace(/\s*$/, "").replace(/\s*$/, "").replace(new RegExp('[ЛНМ]','gi'), 'i').replace(new RegExp('[г]','gi'), 'c').replace(new RegExp('[зыш]','gi'), 'u').replace(new RegExp('[срту]','gi'), 'o').replace(new RegExp('[ихй]','gi'), 'e').replace(new RegExp('[аюбц]','gi'), 'a');
+       ).stringValue.replace(/^\s*/, "").replace(/\s*$/, "").replace(/\s*$/, "").replace(new RegExp('[О©╫О©╫О©╫]','gi'), 'i').replace(new RegExp('[О©╫]','gi'), 'c').replace(new RegExp('[О©╫О©╫О©╫]','gi'), 'u').replace(new RegExp('[О©╫О©╫О©╫О©╫]','gi'), 'o').replace(new RegExp('[О©╫О©╫О©╫]','gi'), 'e').replace(new RegExp('[О©╫О©╫О©╫О©╫]','gi'), 'a');
    }
    //console.debug("3:" + originalTitleText);
    
@@ -129,7 +129,3 @@ function addIshountLink(cssString) {
    
    console.debug("IMDbjlink Executado");
 }
-
-
-//addIshountLink();
-//document.addEventListener("DOMContentLoaded", addIshountLink, false);
