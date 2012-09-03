@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Bj-Linkfy",
+  "version": "1.0.21",
+  "minimum_chrome_version": "20",
+  "icons": {
+    "128": "icon_128.png"
+  }, 
+  "permissions": ["http://www.imdbapi.com/*"],
+  "update_url": "http://bj-linkfy.googlecode.com/files/bj-linkfy_updates2.xml" ,
+  "homepage_url": "http://www.bj2.me",
+  "content_scripts": [{
+      "matches": ["http://www.imdb.com/title/*","http://www.bj2.me/detalhes.php?id=*","http://www.bj2.me/pesquisa_videos.php?*","http://filmow.com/*"],
+      "js": ["main.js","main2.js","main3.js","rating.js"],
+	  "run_at": "document_end"
+  }], 
+  "web_accessible_resources": ["main.js","main2.js","main3.js","rating.js"]
+}
