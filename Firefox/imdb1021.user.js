@@ -30,7 +30,7 @@ function addIshountLink(cssString) {
            null,
            XPathResult.STRING_TYPE,
            null
-       ).stringValue.replace(/^\s*/, "").replace(/\s*$/, "").replace(/^\s*/, "").replace(/\s*$/, "").replace(new RegExp('[���]','gi'), 'i').replace(new RegExp('[�]','gi'), 'c').replace(new RegExp('[���]','gi'), 'u').replace(new RegExp('[����]','gi'), 'o').replace(new RegExp('[���]','gi'), 'e').replace(new RegExp('[����]','gi'), 'a');
+       ).stringValue.replace(/^\s*/, "").replace(/\s*$/, "").replace(/^\s*/, "").replace(/\s*$/, "").replace(new RegExp('[ìîí]','gi'), 'i').replace(new RegExp('[Ç]','gi'), 'c').replace(new RegExp('[ÚÙÛ]','gi'), 'u').replace(new RegExp('[ÓÒÔÕ]','gi'), 'o').replace(new RegExp('[ÉÈÊ]','gi'), 'e').replace(new RegExp('[ÁÀÂÃ]','gi'), 'a');
    } catch (err) {
        return;
    }
@@ -42,7 +42,7 @@ function addIshountLink(cssString) {
            null,
            XPathResult.STRING_TYPE,
            null
-       ).stringValue.replace(/^\s*/, "").replace(/\s*$/, "").replace(/^\s*/, "").replace(/\s*$/, "").replace(new RegExp('[���]','gi'), 'i').replace(new RegExp('[�]','gi'), 'c').replace(new RegExp('[���]','gi'), 'u').replace(new RegExp('[����]','gi'), 'o').replace(new RegExp('[���]','gi'), 'e').replace(new RegExp('[����]','gi'), 'a');
+       ).stringValue.replace(/^\s*/, "").replace(/\s*$/, "").replace(/^\s*/, "").replace(/\s*$/, "").replace(new RegExp('[ìîí]','gi'), 'i').replace(new RegExp('[Ç]','gi'), 'c').replace(new RegExp('[ÚÙÛ]','gi'), 'u').replace(new RegExp('[ÓÒÔÕ]','gi'), 'o').replace(new RegExp('[ÉÈÊ]','gi'), 'e').replace(new RegExp('[ÁÀÂÃ]','gi'), 'a');
    } catch (err) {
        return;
    }
@@ -54,7 +54,7 @@ function addIshountLink(cssString) {
            null,
            XPathResult.STRING_TYPE,
            null
-       ).stringValue.replace(/^\s*/, "").replace(/\s*$/, "").replace(/\s*$/, "").replace(new RegExp('[���]','gi'), 'i').replace(new RegExp('[�]','gi'), 'c').replace(new RegExp('[���]','gi'), 'u').replace(new RegExp('[����]','gi'), 'o').replace(new RegExp('[���]','gi'), 'e').replace(new RegExp('[����]','gi'), 'a');
+       ).stringValue.replace(/^\s*/, "").replace(/\s*$/, "").replace(/\s*$/, "").replace(new RegExp('[ìîí]','gi'), 'i').replace(new RegExp('[Ç]','gi'), 'c').replace(new RegExp('[ÚÙÛ]','gi'), 'u').replace(new RegExp('[ÓÒÔÕ]','gi'), 'o').replace(new RegExp('[ÉÈÊ]','gi'), 'e').replace(new RegExp('[ÁÀÂÃ]','gi'), 'a');
    }
    //console.debug("3:" + originalTitleText);
    
