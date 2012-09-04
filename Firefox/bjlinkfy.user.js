@@ -56,7 +56,7 @@ window.gm_show_menu = function(e, t, x, y, isSame) {
 	 
 	 l['filmow']['<br/><img src="http://img.bj2.me/files/1208wsr239.png" width="90px" class="filmow">'] = 'http://filmow.com/buscar/?q=';
 
-    html = '<style>.menLink, div.menLink a {color: #125298; text-align: left; padding: 0; margin: 0; font-size: 1px; display: inline;} .imgb {float: right; padding:0 !important; margin: -5px;} #gm_menu_link_Bootleg a{display: block !important; color: #125298 !important;} .imgb2 {margin-left: 5px;} .filmow { padding: 0 0 0 25px; } hr {width: 90%;}</style>\n<center>\n Bj-Linkfy v1 <a href="javascript:void(document.getElementById(\'GmMenu\').style.display=\'none\')" class="menLink"><img src="http://vernfonk.com/wp-content/themes/vern-fonk/images/close_icon1.gif" class="imgb"></a></center>\n<hr>\n'; 
+    html = '<style>.menLink, div.menLink a {color: #125298; text-align: left; padding: 0; margin: 0; font-size: 1px; display: inline;} .imgb {float: right; padding:0 !important; margin: -5px;} #gm_menu_link_Bootleg a{display: block !important; color: #125298 !important;} .imgb2 {margin-left: 5px;} .filmow { padding: 0 0 0 25px; } hr {width: 90%;}</style>\n<center>\n Bj-Linkfy v1 <a href="javascript:void(document.getElementById(\'GmMenu\').style.display=\'none\')" class="menLink"><img src="http://img.bj2.me/files/1209vow426.gif" class="imgb"></a></center>\n<hr>\n'; 
     
     for (var i in l) {
       var first = 1;
