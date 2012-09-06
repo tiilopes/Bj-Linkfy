@@ -114,7 +114,8 @@ function processLink(imdbLink)
 	{
      GM_xmlhttpRequest({
 			method: 'GET',
-			url: 'http://www.imdbapi.com/?i=' + imdbId + '&r=JSON',
+			url: 'http://www.deanclatworthy.com/imdb/?id=' + imdbId + '&r=JSON',
+			//url: 'http://www.imdbapi.com/?i=' + imdbId + '&r=JSON',
 			headers: {  
 			},  
 			onload: function(result) {  
